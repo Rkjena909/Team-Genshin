@@ -14,4 +14,4 @@ AWS Glue, AWS Athena, AWS Entity Resolution, AWS Lambda, AWS CloudTrail and GoLa
 # Roadmap of the process
 ![image](https://github.com/user-attachments/assets/b52a2e6b-e6fd-4c67-9ca2-72552cc5e1b3)
 
-Reference to how the process works: https://docs.google.com/document/d/1qJwszwjOjpykinJjil33mu1usrXiXjHrNz7AlTq5vAM/edit?usp=sharing
+WorkFlow Doc: https://docs.google.com/document/d/1qJwszwjOjpykinJjil33mu1usrXiXjHrNz7AlTq5vAM/edit?usp=sharing
