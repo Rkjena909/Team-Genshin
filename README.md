@@ -8,6 +8,7 @@ To create a universal Proof of Reception (PoR) profile identification system, co
 
 # Required Computer Systems
 AWS Glue, AWS Athena, AWS Entity Resolution, AWS Lambda, AWS CloudTrail and GoLang for Backend.
+
 (Requirements are subject to change with change in Time.)
 
 # Roadmap of the process
