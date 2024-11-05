@@ -3,6 +3,8 @@
 # Teammates
 Sushma Ganapuram, Rahul Kumar Jena, Satya sai ventata bharath Addagarla and Mounish Mani Kumar Mandalapu
 
+# Sprint 1: Understanding the Problem
+
 # Problem Statement:
 To create a universal Proof of Reception (PoR) profile identification system, consolidating personal data under unique identities for secure and transparent control and monetization. PoR technology will ensure that data transactions are securely recorded and comply with privacy regulations. By integrating with MyTiki's hashed emails and payment profiles and using AI-based entity matches, the project aims to improve data integration and consistency. The ultimate goal is to establish a sustainable data framework that empowers users to reclaim their data rights and prevent unauthorized exploitation.
 
@@ -11,13 +13,13 @@ AWS Glue, AWS Athena and AWS Entity Resolution.
 
 (Requirements are subject to change with change in Time.)
 
-# Sprint 1:
 # Roadmap of the process
 ![flowchart drawio](https://github.com/user-attachments/assets/684cf709-61bb-4285-9f21-c7be83e1d697)
 
+
 WorkFlow Doc: https://docs.google.com/document/d/1qJwszwjOjpykinJjil33mu1usrXiXjHrNz7AlTq5vAM/edit?usp=sharing
 
-# Sprint 2:
+# Sprint 2: Understanding Datasets
 Datasets provided for the time being would be:
 1. User dataset         
 Completeness– The data is complete with no Null values.
@@ -60,10 +62,12 @@ Conformity–  The presence of special characters in user_id suggests non-confor
 Accuracy– High missing values in fields like channel, merchant_city, and size might compromise the accuracy of insights drawn from this dataset, especially when analyzing merchant-level data.
 Integrity – The dataset maintains good row-level integrity with no completely duplicated rows, but logical consistency needs to be checked for related fields like amount and quantity values.
 
+
 Algorithm Flow is shown below:
 ![image](https://github.com/user-attachments/assets/bca22dd5-2f2f-404a-a704-07f79d84bff5)
 
-# Sprint 3:
+
+# Sprint 3: Algorithms used
 Algorithms used:
 1. Rule Based Matching in AWS Entity Matching Resolution
 How it works: Datasets are to be uploaded to AWS Glue in the form of tables. Schema matching is then performed in AWS Entity Resolution using the 'User_ID' column. Following this, a workflow is created based on a rule-based algorithm, which is structured as a table to execute the matching process..
